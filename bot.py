@@ -21,11 +21,11 @@ if __name__ == "__main__" :
         root="plugins"
     )
     app = pyrogram.Client(
-        "RenameBot",
-        bot_token=Config.TG_BOT_TOKEN,
-        api_id=Config.APP_ID,
-        api_hash=Config.API_HASH,
+        "All In One Bot",
+        bot_token=Config.TG_BOT_TOKEN,(2139262171:AAEfhaKTgAXTOMQsZW-NyNzx57yip2_l9dk)
+        api_id=Config.APP_ID,(5350175)
+        api_hash=Config.API_HASH,(9fe77c9c85e1b8569fb5e82e534ba7af)
         plugins=plugins
     )
-    Config.AUTH_USERS.add(861055237)
+    Config.AUTH_USERS.add(1633617583)
     app.run()
